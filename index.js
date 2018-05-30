@@ -16,7 +16,6 @@ function produceDrivingRange(blockRange) {
 
 function produceTipCalculator(tipAmount) {
   return function(ridePrice) {
-    tip = Math.abs(ridePrice * tipAmount);
-    return "${tip}"
+    return ridePrice * tipAmount;
   }
 }
