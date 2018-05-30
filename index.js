@@ -14,7 +14,7 @@ function produceDrivingRange(blockRange) {
 }
 
 
-function tenPercentTip {
+function tenPercentTip() {
   return function() {
 
   }
