@@ -7,6 +7,8 @@ function produceDrivingRange(blockRange) {
 
     if (range <0) {
       return `${Math.abs(range)} blocks out of range`;
+    } else {
+      return `within range by ${range}`;
     }
   }
 }
