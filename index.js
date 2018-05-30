@@ -12,3 +12,10 @@ function produceDrivingRange(blockRange) {
     }
   }
 }
+
+
+function tenPercentTip {
+  return function() {
+
+  }
+}
